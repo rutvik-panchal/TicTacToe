@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TicTacToe" >
-        <activity android:name=".game.GameActivity" >
+        <activity android:name=".game.GameViewActivity" >
 
         </activity>
         <activity android:name=".MainActivity" >

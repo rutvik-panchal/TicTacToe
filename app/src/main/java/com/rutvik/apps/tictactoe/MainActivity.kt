@@ -4,7 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.rutvik.apps.tictactoe.databinding.ActivityMainBinding
-import com.rutvik.apps.tictactoe.game.GameActivity
+import com.rutvik.apps.tictactoe.game.GameViewActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.playNowButton.setOnClickListener {
-            startActivity(Intent(this@MainActivity, GameActivity::class.java))
+            startActivity(Intent(this@MainActivity, GameViewActivity::class.java))
         }
 
         binding.playerSwitch.setOnCheckedChangeListener { buttonView, isChecked ->

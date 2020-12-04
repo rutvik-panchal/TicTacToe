@@ -1,8 +1,10 @@
 package com.rutvik.apps.tictactoe.game
 
-interface Game {
+interface GameView {
 
     fun declareWinner()
 
     fun restartGame()
+
+
 }

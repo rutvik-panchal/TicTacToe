@@ -11,9 +11,10 @@ import com.rutvik.apps.tictactoe.board.TicTacToeBoard
 import com.rutvik.apps.tictactoe.board.TicTacToeMarks
 import com.rutvik.apps.tictactoe.databinding.ActivityGameBinding
 
-class GameActivity : AppCompatActivity(), Game {
+class GameViewActivity : AppCompatActivity(), GameView {
 
     private lateinit var binding: ActivityGameBinding
+    private lateinit var presenter: GamePresenter
 
     private lateinit var gameBoard: TicTacToeBoard
     private lateinit var boxes: ArrayList<ImageView>
