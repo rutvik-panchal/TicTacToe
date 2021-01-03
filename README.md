@@ -1,5 +1,6 @@
 # TicTacToe
 
+This repository contains a android based interactive Tic-Tac-Toe game.
 
 ### Screenshots
 <div>
@@ -8,5 +9,8 @@
   </pre>
 </div>
 
+## Author
+<a href="https://github.com/rutvik-panchal" >rutvik-panchal</a>
+
 ## Note
-The application is under development and many more features will be added.
+Many more features are on the way.
